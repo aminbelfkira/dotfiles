@@ -1,0 +1,17 @@
+# Prompt compact sur une seule ligne
+add_newline = false
+format = "$directory$git_branch$git_status$python$character"
+
+[directory]
+style = "bold blue"
+
+[git_branch]
+symbol = "git:"
+format = "[$symbol$branch]($style) "
+
+[python]
+symbol = "py:"
+
+[character]
+success_symbol = "[>](bold green) "
+error_symbol = "[>](bold red) "
