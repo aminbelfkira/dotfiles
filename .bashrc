@@ -134,4 +134,7 @@ function y() {
 
     command rm -f -- "$tmp"
 }
+export PATH="/usr/local/cuda-13.3/bin:$PATH"
+
+
 eval "$(zoxide init bash)"
